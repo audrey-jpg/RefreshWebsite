@@ -1,0 +1,154 @@
+*, html{ /*kalau ada tanda * artinya untuk keseluruhan html nya*/
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    background-color: rgb(129, 188, 239);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ulnavbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linavbar{
+    list-style-type:none;
+    padding: 20px;
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.linavbar:hover{
+    background-color: pink;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 25px;
+}
+
+.content{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.licontact{
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.imgcontent{
+    width:60%;
+    height: 80%;
+}
+
+.footer{
+    background-color: rgb(129, 188, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.h1footer{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.a-navbar{
+    color:white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.a-navbar.active {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+.a-content{
+    width: 480px;
+    height: 640px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);;
+}
+
+.a-content:hover{
+    background-color: pink;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 25px;
+} 
+
+.paragraph {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5;
+  }
+
+
+.imgabout{
+    width:70px;
+    height: 110px;
+}
+
+.a-content a {
+    text-decoration: none;
+    color:black;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.contact-form input,.contact-form textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: rgb(129, 188, 239);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
